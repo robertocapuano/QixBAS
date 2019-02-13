@@ -1,6 +1,6 @@
 QixBAS is a surving game in which you drive the on-screen Qix.
-.'A' key to turn it counter-clockwise.
-.'S' key to turn it clockwise.
+- 'A' key to turn it counter-clockwise.
+- 'S' key to turn it clockwise.
 It loses a bar whenever it collides with the edge of the screen.
 
 It was developed on MSX2 emu on https://webmsx.org/
