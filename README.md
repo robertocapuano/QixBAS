@@ -11,7 +11,7 @@ Instructions:
 4) RUN
 
 Commented Source Code:
-`10 A =RND(TIME)*3.14:R=10:S=10:X=50:Y=50:L=10:U=10:W=250:H=212:ST=0.2
+10 A =RND(TIME)*3.14:R=10:S=10:X=50:Y=50:L=10:U=10:W=250:H=212:ST=0.2
 Initialize variables
 A: angle of qix direction
 R: size of qix bar
