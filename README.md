@@ -4,6 +4,7 @@ QixBAS is a surving game in which you drive the on-screen Qix.
 It loses a bar whenever it collides with the edge of the screen.
 
 It was developed on MSX2 emu on https://webmsx.org/
+
 Instructions:
 1) select machine: MSX2++
 2) ALT-B
