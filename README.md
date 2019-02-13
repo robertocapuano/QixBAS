@@ -33,24 +33,38 @@ X1,X2,Y1,Y2: previous position arrays
 ```
 DRAW QIX at position
 
+```
 110 KR$ = INKEY$ : if KR$="a" THEN A = A- ST: ELSE IF KR$="s" THEN A = A + ST
+```
 READ key and change Qix angle direction
 
+```
 130 if X>W OR X<0 OR Y<0 OR Y>H THEN A = A+3.14/2 : L=L-1 : if L<2 then L = 2
+```
 In case of border collision invert direction
 
+```
 205 FOR I=L-1 TO 1 STEP-1:X1(I)=X1(I-1):X2(I)=X2(I-1):Y1(I)=Y1(I-1)
+```
 Shift previous position
 
+```
 210 Y2(I)=Y2(I-1):NEXT I:X = X + S*COS(A): Y = Y + S*SIN(A): A1=A -90:A2=A+90:
+```
 Compute Qix next position
 
+```
 220 X1(0)=X+R*COS(A1):Y1(0)=Y+R*SIN(A1):X2(0)=X+R*COS(A2):Y2(0)=Y+R*SIN(A2)
+```
 Compute actual bar position.
 
+```
 230 FOR I =1 TO L-2 : LINE (X1(I),Y1(I))-(X2(I),Y2(I)),1:NEXT I:
+```
 Draw Qix bars
 
+```
 240 LINE (X1(0),Y1(0))-(X2(0),Y2(0)), 2:GOTO 100
+```
 Draw Qix Actual Bar e loop.
 
