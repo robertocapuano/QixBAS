@@ -1,4 +1,4 @@
-QixBAS is a surving game in which you drive on screen Qix.
+QixBAS is a surving game in which you control the direction of Qix:
 - 'A' key to turn it counter-clockwise.
 - 'S' key to turn it clockwise.
 
